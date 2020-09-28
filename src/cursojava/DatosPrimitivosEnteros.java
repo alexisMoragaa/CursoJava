@@ -10,14 +10,14 @@ package cursojava;
  * 
  * @author Sammy Guergachi <sguergachi at gmail.com>
  */
-public class DatosPrimitivos {
+public class DatosPrimitivosEnteros {
     
     /* En java existen tipos de datos las cuales conoceremos como primitivos
         un ejemplo de estos son las variables de tipo entero, dentro de las cuales podemos encontrar los siguientes tipos de datos primitivos
         byte => permite almacenar valores entre -128 y 127
         short => permite almacenar valores entre -32768 y 32767
         int => permite almacenar valores entre -2147483648 y 2147483647
-        long
+        long => permite almacenar valores entre -9223372036854775808 y 9223372036854775807
     */
     public static void main(String args[]){
         
@@ -48,7 +48,11 @@ public class DatosPrimitivos {
         System.out.println("Valor minimo de un long: " + Long.MIN_VALUE);
         System.out.println("Valor maximo de un long: " + Long.MAX_VALUE);
         
-       
+       /*
+        Por defecto los valores literales de las variables son enteros, si el valor lireal de nuestra variable supera el maximo soportado por el tipo int se añade una L al final del valor para indicar
+        que este se trata de un valor long
+       */
+        
     }
 }
 
