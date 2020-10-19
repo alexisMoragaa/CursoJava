@@ -33,7 +33,7 @@ public class Cliente extends Persona  {
         return idCliente;
     }
 
- 
+  
     public boolean isVip() {
         return vip;
     }
